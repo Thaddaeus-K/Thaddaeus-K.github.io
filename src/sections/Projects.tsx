@@ -27,7 +27,7 @@ const Projects = () => {
       category: 'Interior Design',
       description:
         'A modern learning space designed to foster creativity and collaborative thinking.',
-      image: '/project-1.jpg',
+      image: './project-1.jpg',
       type: 'Personal',
     },
     {
@@ -36,7 +36,7 @@ const Projects = () => {
       category: 'Video Production',
       description:
         'Documentary capturing the heartwarming community stories in West Timor.',
-      image: '/project-2.jpg',
+      image: './project-2.jpg',
       type: 'Personal',
     },
     {
@@ -45,7 +45,7 @@ const Projects = () => {
       category: 'Parametric Design',
       description:
         'Exploring the golden ratio through computational architectural forms.',
-      image: '/project-3.jpg',
+      image: './project-3.jpg',
       type: 'Academic',
     },
     {
@@ -54,7 +54,7 @@ const Projects = () => {
       category: 'Interior Design',
       description:
         'A sophisticated urban living space with panoramic city views.',
-      image: '/project-4.jpg',
+      image: './project-4.jpg',
       type: 'Personal',
     },
   ];
