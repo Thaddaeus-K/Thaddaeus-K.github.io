@@ -100,7 +100,7 @@ const About = () => {
               {/* Image */}
               <div className="relative w-full h-full rounded-lg overflow-hidden shadow-card">
                 <img
-                  src="/thaddaeuskwok.github.io/about-portrait.jpg"
+                  src="/about-portrait.jpg"
                   alt="Thaddaeus working"
                   className="w-full h-full object-cover"
                 />

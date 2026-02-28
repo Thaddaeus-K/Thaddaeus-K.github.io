@@ -21,7 +21,7 @@ export const projects: Project[] = [
     category: 'Interior Design',
     type: 'Personal',
     description: 'A modern learning space designed to foster creativity and collaborative thinking.',
-    heroImage: '/thaddaeuskwok.github.io/project-1.jpg',
+    heroImage: '/project-1.jpg',
     sections: [
       {
         title: 'The Concept',
@@ -41,10 +41,10 @@ export const projects: Project[] = [
       }
     ],
     gallery: [
-      '/thaddaeuskwok.github.io/project-1.jpg',
-      '/thaddaeuskwok.github.io/project-1.jpg',
-      '/thaddaeuskwok.github.io/project-1.jpg',
-      '/thaddaeuskwok.github.io/project-1.jpg',
+      '/project-1.jpg',
+      '/project-1.jpg',
+      '/project-1.jpg',
+      '/project-1.jpg',
     ]
   },
   {
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     category: 'Video Production',
     type: 'Personal',
     description: 'Documentary capturing the heartwarming community stories in West Timor.',
-    heroImage: '/thaddaeuskwok.github.io/project-2.jpg',
+    heroImage: '/project-2.jpg',
     sections: [],
     gallery: []
   },
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     category: 'Parametric Design',
     type: 'Academic',
     description: 'Exploring the golden ratio through computational architectural forms.',
-    heroImage: '/thaddaeuskwok.github.io/project-3.jpg',
+    heroImage: '/project-3.jpg',
     sections: [],
     gallery: []
   },
@@ -73,7 +73,7 @@ export const projects: Project[] = [
     category: 'Interior Design',
     type: 'Personal',
     description: 'A sophisticated urban living space with panoramic city views.',
-    heroImage: '/thaddaeuskwok.github.io/project-4.jpg',
+    heroImage: '/project-4.jpg',
     sections: [],
     gallery: []
   }

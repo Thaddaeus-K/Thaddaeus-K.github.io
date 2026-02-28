@@ -29,7 +29,7 @@ const Projects = () => {
       category: 'Interior Design',
       description:
         'A modern learning space designed to foster creativity and collaborative thinking.',
-      image: '/thaddaeuskwok.github.io/project-1.jpg',
+      image: '/project-1.jpg',
       type: 'Personal',
     },
     {
@@ -38,7 +38,7 @@ const Projects = () => {
       category: 'Video Production',
       description:
         'Documentary capturing the heartwarming community stories in West Timor.',
-      image: '/thaddaeuskwok.github.io/project-2.jpg',
+      image: '/project-2.jpg',
       type: 'Personal',
     },
     {
@@ -47,7 +47,7 @@ const Projects = () => {
       category: 'Parametric Design',
       description:
         'Exploring the golden ratio through computational architectural forms.',
-      image: '/thaddaeuskwok.github.io/project-3.jpg',
+      image: '/project-3.jpg',
       type: 'Academic',
     },
     {
@@ -56,7 +56,7 @@ const Projects = () => {
       category: 'Interior Design',
       description:
         'A sophisticated urban living space with panoramic city views.',
-      image: '/thaddaeuskwok.github.io/project-4.jpg',
+      image: '/project-4.jpg',
       type: 'Personal',
     },
   ];
