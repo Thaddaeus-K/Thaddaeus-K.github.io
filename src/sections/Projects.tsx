@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ArrowUpRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,6 +16,7 @@ interface Project {
 }
 
 const Projects = () => {
+  const navigate = useNavigate()
   const sectionRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);
@@ -27,7 +29,7 @@ const Projects = () => {
       category: 'Interior Design',
       description:
         'A modern learning space designed to foster creativity and collaborative thinking.',
-      image: './project-1.jpg',
+      image: '/thaddaeuskwok.github.io/project-1.jpg',
       type: 'Personal',
     },
     {
@@ -36,7 +38,7 @@ const Projects = () => {
       category: 'Video Production',
       description:
         'Documentary capturing the heartwarming community stories in West Timor.',
-      image: './project-2.jpg',
+      image: '/thaddaeuskwok.github.io/project-2.jpg',
       type: 'Personal',
     },
     {
@@ -45,7 +47,7 @@ const Projects = () => {
       category: 'Parametric Design',
       description:
         'Exploring the golden ratio through computational architectural forms.',
-      image: './project-3.jpg',
+      image: '/thaddaeuskwok.github.io/project-3.jpg',
       type: 'Academic',
     },
     {
@@ -54,7 +56,7 @@ const Projects = () => {
       category: 'Interior Design',
       description:
         'A sophisticated urban living space with panoramic city views.',
-      image: './project-4.jpg',
+      image: '/thaddaeuskwok.github.io/project-4.jpg',
       type: 'Personal',
     },
   ];
@@ -153,7 +155,8 @@ const Projects = () => {
           {filteredProjects.map((project, index) => (
             <div
               key={project.id}
-              className={`project-card group relative ${
+              onClick={() => navigate(`/project/${project.id}`)}
+              className={`project-card group relative cursor-pointer ${
                 index === 0 ? 'md:col-span-2' : ''
               }`}
             >

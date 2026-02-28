@@ -152,7 +152,7 @@ const Hero = () => {
               {/* Image container */}
               <div className="relative w-full h-full rounded-lg overflow-hidden shadow-soft">
                 <img
-                  src="./hero-portrait.jpg"
+                  src="/thaddaeuskwok.github.io/hero-portrait.jpg"
                   alt="Thaddaeus Kwok"
                   className="w-full h-full object-cover"
                 />
